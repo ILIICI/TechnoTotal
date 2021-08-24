@@ -1,0 +1,32 @@
+ .container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+ }
+  .col-sm-12{
+      display: flex;
+  }
+
+  .col-sm-8{
+      margin-top: 0.2rem;
+  }
+  .sidebar a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
